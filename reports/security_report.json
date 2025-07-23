@@ -1,7 +1,68 @@
 {
-  "users_without_mfa": [
-    "new",
-    "OpsStation1",
-    "OpsStation_Technologies"
-  ]
+  "iam": {
+    "users_without_mfa": [
+      "new",
+      "OpsStation1",
+      "OpsStation_Technologies"
+    ],
+    "users_with_mfa": [],
+    "old_access_keys": [
+      {
+        "user": "OpsStation_Technologies",
+        "access_key_id": "AKIA3LET5ZTOCAO4CHW6",
+        "age_days": 146
+      }
+    ],
+    "wildcard_policies": [
+      {
+        "user": "new",
+        "policy_name": "AdministratorAccess",
+        "arn": "arn:aws:iam::aws:policy/AdministratorAccess"
+      },
+      {
+        "user": "OpsStation1",
+        "policy_name": "AdministratorAccess",
+        "arn": "arn:aws:iam::aws:policy/AdministratorAccess"
+      },
+      {
+        "user": "OpsStation1",
+        "policy_name": "AmazonEKSClusterPolicy",
+        "arn": "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"
+      },
+      {
+        "user": "OpsStation1",
+        "policy_name": "AmazonEKSClusterPolicy",
+        "arn": "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"
+      },
+      {
+        "user": "OpsStation1",
+        "policy_name": "AmazonEKSClusterPolicy",
+        "arn": "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"
+      },
+      {
+        "user": "OpsStation1",
+        "policy_name": "AmazonEKS_CNI_Policy",
+        "arn": "arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy"
+      },
+      {
+        "user": "OpsStation1",
+        "policy_name": "AmazonEC2ContainerRegistryReadOnly",
+        "arn": "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly"
+      },
+      {
+        "user": "OpsStation1",
+        "policy_name": "AmazonEKSWorkerNodePolicy",
+        "arn": "arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy"
+      },
+      {
+        "user": "OpsStation_Technologies",
+        "policy_name": "AdministratorAccess",
+        "arn": "arn:aws:iam::aws:policy/AdministratorAccess"
+      }
+    ]
+  },
+  "s3": {
+    "public_buckets": [],
+    "unencrypted_buckets": []
+  }
 }

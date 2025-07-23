@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AWS Audit Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+<h2 class="mb-4">AWS Audit Dashboard</h2>
+
+<div class="mb-3">
+    <label for="profile" class="form-label">AWS Profile</label>
+    <input type="text" id="profile" placeholder="default" value="default" class="form-control">
+</div>
+
+<div class="mb-3">
+    <label for="region" class="form-label">AWS Region</label>
+    <input type="text" id="region" placeholder="us-east-1" value="us-east-1" class="form-control">
+</div>
+
+<div class="mb-4">
+    <button onclick="runAudit('cost')" class="btn btn-primary me-2">Run Cost Audit</button>
+    <button onclick="runAudit('security')" class="btn btn-danger">Run Security Audit</button>
+</div>
+
+<h4>Audit Results:</h4>
+<pre id="results" class="bg-light p-3 rounded border"></pre>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>

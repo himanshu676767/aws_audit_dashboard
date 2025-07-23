@@ -1,0 +1,17 @@
+{
+  "profile": "default",
+  "start_date": "2025-06-23",
+  "end_date": "2025-07-23",
+  "regional_costs": {
+    "ap-south-1": 0.01,
+    "ca-central-1": 0.94,
+    "eu-north-1": 0.17,
+    "eu-west-1": 0.25,
+    "eu-west-2": 0.0,
+    "global": 0.0,
+    "us-east-1": 2.78,
+    "us-east-2": 0.07,
+    "us-west-1": 0.02,
+    "us-west-2": 0.0
+  }
+}
